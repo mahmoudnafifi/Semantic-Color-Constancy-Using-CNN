@@ -1,6 +1,6 @@
-# Semantic-Color-Constancy-Using-CNN
+# Semantic white balance: Semantic Color Constancy using Convolutional Neural Network (SCCCNN)
 
-Semantic white balance: Semantic Color Constancy using Convolutional Neural Network (SCCCNN)
+Note that color constancy using diagonal correction should be applied to the linear RAW image. Here, we did not use that because of the absence of semantic segmentation models for RAW images (just a proof of concept). Read the report for more information.
 
 To generate semantic masks, you can download Refinenet from the following link:
 
@@ -38,8 +38,11 @@ end
 
 
 You can read the report from here: https://arxiv.org/abs/1802.00153 
+
 If you use this code, please cite it as: 
+
 Mahmoud Afifi. "Semantic White Balance: Semantic Color Constancy Using Convolutional Neural Network." arXiv preprint arXiv:1802.00153 (2018). 
+
 @article{afifi2018semantic , 
 title={Semantic White Balance: Semantic Color Constancy Using Convolutional Neural Network}, 
 author={Afifi, Mahmoud}, 
