@@ -1,0 +1,14 @@
+function [I,whiteM] = greyWorld(I)
+I=double(I);
+[m,n,~]=size(I);
+Rmean= sum(sum(I(:,:,1)))/(m*n);
+Gmean= sum(sum(I(:,:,2)))/(m*n);
+Bmean= sum(sum(I(:,:,3)))/(m*n);
+Avg= mean([Rmean Gmean Bmean]);
+A= Avg/Rmean;
+B= Avg/Gmean;
+G= Avg/Bmean;
+whiteM=[A,B,G];
+I(:,:,1)=I(:,:,1)*A;
+I(:,:,2)=I(:,:,2)*B;
+I(:,:,3)=I(:,:,3)*G;
