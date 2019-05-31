@@ -20,20 +20,21 @@ third element must be 3 or 1.
 To fix it,  do the following:
 -Open Matlab  (run as administrator)
 -Write:
->> edit imageInputLayer.m
+`edit imageInputLayer.m`
 
 -replace the following code:
 
-function tf = iIsValidRGBImageSize(sz)
+```function tf = iIsValidRGBImageSize(sz)
 tf = numel(sz) == 3 && sz(end) == 3;
 end
+```
 
 with the modified function:
 
-function tf = iIsValidRGBImageSize(sz)
+```function tf = iIsValidRGBImageSize(sz)
 tf = numel(sz) == 3 && (sz(end) == 3 || sz(end) == 4);
 end
-
+```
 -save 
 
 
