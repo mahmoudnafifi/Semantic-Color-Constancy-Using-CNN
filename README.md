@@ -1,5 +1,10 @@
 # Semantic white balance: Semantic Color Constancy using Convolutional Neural Network (SCCCNN)
 
+<p align="center">
+  <img src="https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/c869ba7c-7e9f-4a7f-8ea4-90a5bb94953f/33f9c6dc-845c-433d-b251-678bf2190a76/images/screenshot.jpg" width="65%"/>
+  </p>
+
+
 Note that color constancy using diagonal correction should be applied to the linear RAW image. Here, we did not use that because of the absence of semantic segmentation models for RAW images (just a proof of concept). Read the report for more information.
 
 To generate semantic masks, you can download Refinenet from the following link:
