@@ -24,14 +24,16 @@ To fix it,  do the following:
 
 -replace the following code:
 
-```function tf = iIsValidRGBImageSize(sz)
+```
+function tf = iIsValidRGBImageSize(sz)
 tf = numel(sz) == 3 && sz(end) == 3;
 end
 ```
 
 with the modified function:
 
-```function tf = iIsValidRGBImageSize(sz)
+```
+function tf = iIsValidRGBImageSize(sz)
 tf = numel(sz) == 3 && (sz(end) == 3 || sz(end) == 4);
 end
 ```
