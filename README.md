@@ -51,9 +51,4 @@ If you use this code, please cite it as:
 
 Mahmoud Afifi. "Semantic White Balance: Semantic Color Constancy Using Convolutional Neural Network." arXiv preprint arXiv:1802.00153 (2018). 
 
-@article{afifi2018semantic , 
-title={Semantic White Balance: Semantic Color Constancy Using Convolutional Neural Network}, 
-author={Afifi, Mahmoud}, 
-journal={arXiv preprint arXiv:1802.00153}, 
-year={2018} 
-}
+[Project webpage](https://sites.google.com/view/semantic-wb/home)
