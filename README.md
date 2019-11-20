@@ -51,4 +51,4 @@ If you use this code, please cite it as:
 
 Mahmoud Afifi. "Semantic White Balance: Semantic Color Constancy Using Convolutional Neural Network." arXiv preprint arXiv:1802.00153 (2018). 
 
-
+[![View Semantic-Color-Constancy-Using-CNN on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/64839-semantic-color-constancy-using-cnn)
