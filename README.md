@@ -14,7 +14,7 @@ https://github.com/guosheng/refinenet
 Remember: you have to use the model trained on MIT ADE20K dataset (ResNet-152) for scene understanding
 
 Download the semantic white balance network from the following link:
-https://drive.google.com/open?id=0B6CktEG1p54WVVpyMlhOMjBjZk0
+https://drive.google.com/file/d/0B6CktEG1p54WVVpyMlhOMjBjZk0/view?usp=sharing&resourcekey=0-F3-dFS8yWTq8G0chYu2Lvg
 
 
 Because of the 4-D images, you are going to get an error states the following:
